@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "email": "rorosyba@gmail.com",
+      "password": "$2a$10$rY/qy9ntwY9AQfB/uXz8yeyHoVh6n0.z06mYLu6IuSoBb.IzBt2uy",
+      "first_name": "Robi",
+      "last_name": "Alisandi",
+      "role": "guru",
+      "id": 1
+    },
+    {
+      "email": "coco@gmail.com",
+      "password": "$2a$10$Jj68wpEnXM0t8Qexpu5o3OSaGjez3EVgMF2MuDu4PZAQ0QhZNYHPS",
+      "first_name": "Coco",
+      "last_name": "Moco",
+      "role": "murid",
+      "id": 2
+    },
+    {
+      "email": "bobo@gmail.com",
+      "password": "$2a$10$ALGCQeIPDSsiV6yVwYTc8.Ikf4uFXcL1efl2MKp.GzGQGkMhkxGGK",
+      "first_name": "BOB",
+      "last_name": "BOBO",
+      "role": "guru",
+      "id": 3
+    },
+    {
+      "email": "gilang@gmail.com",
+      "password": "$2a$10$7VQLBbjPEpJZuAJf9K6SNu.74otWjv4ZW.rOgY.AGm.H3RPPGIeGq",
+      "first_name": "Gilang",
+      "last_name": "Baskhara",
+      "role": "murid",
+      "id": 4
+    },
+    {
+      "email": "alu@gmail.com",
+      "password": "$2a$10$sy82c8sncISIy0tshvMaX.uPuy3FIzKsPnJ7vU5TMEsEMb7fyeIie",
+      "first_name": "Alucard",
+      "last_name": "ML",
+      "role": "murid",
+      "id": 5
+    },
+    {
+      "email": "dudung@gmail.com",
+      "password": "$2a$10$v2rQEXFMD52d5kn2ETBGHeG.oNeAjAdplhSHuXoOQqidCYdAEYE4S",
+      "first_name": "Dudung",
+      "last_name": "Dadang",
+      "role": "murid",
+      "id": 6
+    }
+  ]
+}
