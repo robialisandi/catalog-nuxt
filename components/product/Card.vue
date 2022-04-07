@@ -14,7 +14,7 @@
       <p class="product-title">
         {{ product.title }}
       </p>
-      <h3 class="product-price">{{ product.price }}</h3>
+      <h3 class="product-price">{{ toCurrencyString(product.price) }}</h3>
     </div>
   </nuxt-link>
 </template>
@@ -25,6 +25,15 @@
       product: {
         type: Object,
         required: true,
+      },
+    },
+    methods: {
+      toCurrencyString(number) {
+        return number.toLocaleString('id-ID', {
+          style: 'currency',
+          currency: 'IDR',
+          minimumFractionDigits: 0,
+        });
       },
     },
   };

@@ -266,7 +266,7 @@ body {
 .card-img {
   display: block;
   position: relative;
-  padding: 0.8rem;
+  padding: 0.8rem 0.8rem 0 0.8rem;
 }
 
 .card-product {
@@ -323,11 +323,12 @@ body {
 }
 
 .product-title {
+  height: 3rem;
   font-size: 1.2rem;
   color: #333;
   line-height: 1.2;
-  margin-bottom: 30px;
-  word-break: break-all;
+  margin-bottom: 2.4rem;
+  /* word-break: break-all; */
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -412,9 +413,32 @@ body {
 /* DETAIL PRODUCT */
 /* ************************************************* */
 
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  margin-bottom: 1.6rem;
+}
+.breadcrumb li {
+  display: inline;
+  font-size: 1.2rem;
+  color: #888;
+}
+.breadcrumb li + li:before {
+  padding: 8px;
+  color: #0d9e76;
+  content: '/\00a0';
+}
+.breadcrumb li a {
+  color: #888;
+  text-decoration: none;
+}
+.breadcrumb li a:hover {
+  color: #0d9e76;
+}
+
 .section-detail {
   background-color: #fff;
-  padding: 9.6rem 0;
+  padding: 7.7rem 0;
 }
 .product-detail {
   grid-template-columns: 47fr 53fr;
@@ -426,7 +450,7 @@ body {
   width: 100%;
 }
 .product-info {
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
   padding: 3.2rem;
 }
 .title-product {
@@ -442,7 +466,7 @@ body {
   border-radius: 15px;
 }
 .ratings-tag span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #fff;
   line-height: 1.2;
@@ -465,15 +489,15 @@ body {
   /* letter-spacing: 0.75px; */
 }
 .info-attribute span:last-child {
-  font-weight: 600;
-  color: #555;
+  /* font-weight: 600; */
+  color: #333;
 }
 .box-price {
-  background-color: #fff;
+  /* background-color: #fff;
   display: inline-block;
-  padding: 2.4rem;
+  padding: 2.4rem; */
   margin-bottom: 3.2rem;
-  box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 10%);
+  /* box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 10%); */
   border-radius: 1.4rem;
 }
 .price {
@@ -493,4 +517,15 @@ body {
   color: #333;
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+/* ANIMATION */
+.fadein {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+.fadein.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }

@@ -6,7 +6,7 @@
         Kata Mereka Yang Telah Memberdayakan Umat
       </h2>
       <div class="testimonials">
-        <figure class="testimonial">
+        <figure class="testimonial js-scroll slide-left">
           <img
             class="testimonial-img"
             alt="Photo of customer Dave Bryson"
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="gallery">
+    <div class="gallery js-scroll slide-right">
       <figure class="gallery-item">
         <img src="@/assets/img//gallery/gallery-1.jpg" alt="photo" />
       </figure>

@@ -27,8 +27,8 @@ export default {
   css: [
     '@assets/css/styles.css',
     '@assets/css/queries.css',
+    '@assets/css/animation.css',
     '@assets/css/all.min.css',
-    '@assets/css/animate.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

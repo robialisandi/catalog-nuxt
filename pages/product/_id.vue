@@ -1,5 +1,6 @@
 <template>
   <section class="section-detail">
+    <Breadcrumb :productTitle="item.title" />
     <div class="container product-detail grid">
       <div class="display-box">
         <img
@@ -29,7 +30,7 @@
           </li>
         </ul>
         <div class="box-price">
-          <p class="price">{{ item.price }}</p>
+          <p class="price">{{ toCurrencyString(item.price) }}</p>
         </div>
         <div class="subheading-text">Deskripsi:</div>
         <div>
@@ -75,6 +76,15 @@
           },
         ],
       };
+    },
+    methods: {
+      toCurrencyString(number) {
+        return number.toLocaleString('id-ID', {
+          style: 'currency',
+          currency: 'IDR',
+          minimumFractionDigits: 0,
+        });
+      },
     },
   };
 </script>

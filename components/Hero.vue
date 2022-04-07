@@ -1,7 +1,7 @@
 <template>
   <section class="section-hero">
     <div class="hero">
-      <h1 class="heading-primary">
+      <h1 class="heading-primary in-down">
         Buka Usaha Online cuma Modal HP
         <span class="hastag">#MudahBukaUsaha</span>
       </h1>
