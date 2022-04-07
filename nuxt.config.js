@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'evermos-nuxt',
+    title: 'Evermos-nuxt',
     htmlAttrs: {
       lang: 'en',
     },
@@ -18,28 +18,21 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Rubik:wght@400;500;600;700&display=swap',
       },
       {
-        type: 'module',
-        href: 'https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js',
-      },
-      {
-        href: 'https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js',
-      },
-      {
         href: 'https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js',
       },
     ],
   },
 
-  vue: {
-    config: {
-      ignoredElements: [/^ion-/],
-    },
-  },
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@assets/css/styles.css', '@assets/css/queries.css'],
+  css: [
+    '@assets/css/styles.css',
+    '@assets/css/queries.css',
+    '@assets/css/all.min.css',
+    '@assets/css/animate.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/vue-lazyload'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

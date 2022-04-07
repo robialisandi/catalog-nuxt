@@ -2,7 +2,12 @@
   <section class="section-detail">
     <div class="container product-detail grid">
       <div class="display-box">
-        <img class="display-product-img" :src="item.image" alt="photo" />
+        <img
+          class="display-product-img"
+          v-lazy="item.image"
+          src="@/assets/img/placeholder.png"
+          :alt="item.title"
+        />
       </div>
       <div class="product-info">
         <h2 class="title-product">

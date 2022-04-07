@@ -5,8 +5,8 @@
         <Logo />
         <Navigation />
         <button class="btn-mobile-nav">
-          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          <i class="icon-mobile-nav fas fa-bars" name="menu-outline"></i>
+          <i class="icon-mobile-nav fas fa-times" name="close-outline"></i>
         </button>
       </header>
     </div>
@@ -17,12 +17,10 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue';
-  import Navigation from '~/components/Navigation.vue';
+  import Scriptjs from '@/assets/js/script.js';
   export default {
-    components: {
-      Logo,
-      Navigation,
+    mounted() {
+      Scriptjs.renderJs();
     },
   };
 </script>

@@ -24,6 +24,11 @@
         }
       }
     },
+    head() {
+      return {
+        title: 'Katalog',
+      };
+    },
   };
 </script>
 
