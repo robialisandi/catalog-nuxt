@@ -1,5 +1,5 @@
 export const actions = {
   async nuxtServerInit({ dispatch }, { req }) {
-    await dispatch("product/loadProducts");
+    await dispatch('product/loadProducts');
   },
 };

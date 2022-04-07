@@ -1,17 +1,13 @@
 <template>
-  <div>
-    <Hero />
+  <div class="m-top">
     <Content />
   </div>
 </template>
 
 <script>
-  import Hero from '@/components/Hero.vue';
   import Content from '@/components/product/Content.vue';
   export default {
-    layout: 'home',
     components: {
-      Hero,
       Content,
     },
     async asyncData({ store }) {
