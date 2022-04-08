@@ -9,7 +9,9 @@
       />
     </div>
     <div class="product-content">
-      <div class="ratings"><span>⭐ 4.5</span></div>
+      <div class="ratings">
+        <span>⭐ {{ product.rating.rate }}</span>
+      </div>
       <span class="product-categories">{{ product.category }}</span>
       <p class="product-title">
         {{ product.title }}

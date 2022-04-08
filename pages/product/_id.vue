@@ -14,7 +14,9 @@
         <h2 class="title-product">
           {{ item.title }}
         </h2>
-        <div class="ratings-tag"><span>⭐ 4.5</span></div>
+        <div class="ratings-tag">
+          <span>⭐ {{ item.rating.rate }}</span>
+        </div>
         <ul class="info-attributes">
           <li class="info-attribute">
             <span>Lokasi:</span>
