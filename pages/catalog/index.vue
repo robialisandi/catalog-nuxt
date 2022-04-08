@@ -1,18 +1,14 @@
 <template>
   <div class="m-top">
-    <Content />
+    <CatalogContent />
   </div>
 </template>
 
 <script>
-  import Content from '@/components/product/Content.vue';
   export default {
-    components: {
-      Content,
-    },
     async asyncData({ store }) {
       try {
-        await store.dispatch('product/loadProducts');
+        await store.dispatch('product/loadCatalog');
       } catch (err) {
         if (err.response !== undefined) {
           return error({

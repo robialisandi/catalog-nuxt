@@ -1,7 +1,7 @@
 <template>
   <section class="section-list">
     <div class="container grid grid--6-cols">
-      <LazyProductCard
+      <LazyCard
         v-for="(item, index) in productList"
         :key="index"
         :product="item"

@@ -20,7 +20,7 @@
           </blockquote>
           <p class="testimonial-name">&mdash; Dave Bryson</p>
         </figure>
-        <figure class="testimonial">
+        <figure class="testimonial js-scroll slide-left">
           <img
             class="testimonial-img"
             alt="Photo of customer Ben Hadley"
@@ -35,7 +35,7 @@
           <p class="testimonial-name">&mdash; Ben Hadley</p>
         </figure>
 
-        <figure class="testimonial">
+        <figure class="testimonial js-scroll slide-left">
           <img
             class="testimonial-img"
             alt="Photo of customer Steve Miller"
@@ -49,7 +49,7 @@
           <p class="testimonial-name">&mdash; Steve Miller</p>
         </figure>
 
-        <figure class="testimonial">
+        <figure class="testimonial js-scroll slide-left">
           <img
             class="testimonial-img"
             alt="Photo of customer Hannah Smith"
