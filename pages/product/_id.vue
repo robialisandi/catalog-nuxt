@@ -35,7 +35,18 @@
         <div class="subheading-text">Deskripsi:</div>
         <div>
           <p class="description-text">
-            {{ item.description }}
+            Many philosophical debates that began in ancient times are still
+            debated today. In one general sense, philosophy is associated with
+            wisdom, intellectual culture and a search for knowledge. Easy
+            upgrade for faster boot up, shutdown, application load and response
+            (As compared to 5400 RPM SATA 2.5” hard drive; Based on published
+            specifications and internal benchmarking tests using PCMark vantage
+            scores) Boosts burst write performance
+          </p>
+          <p class="description-text">
+            Many philosophical debates that began in ancient times are still
+            debated today. In one general sense, philosophy is associated with
+            wisdom, intellectual culture and a search for knowledge.
           </p>
         </div>
       </div>
